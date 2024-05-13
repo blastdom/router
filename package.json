@@ -1,0 +1,63 @@
+{
+  "name": "@blastdom/router",
+  "description": "Provides essential navigation tools for BlastDOM applications, featuring Router nodes, route-specific actions, and values for seamless transitions across web and mobile platforms.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Aurimas Niekis <aurimas@niekis.lt>",
+  "homepage": "https://github.com/blastdom/router#readme",
+  "contributors": [
+    {
+      "name": "Aurimas Niekis",
+      "email": "aurimas@niekis.lt",
+      "url": "https://aurimas.niekis.lt"
+    }
+  ],
+  "bugs": {
+    "bugs": {
+      "url": "https://github.com/blastdom/router/issues",
+      "email": "team@blastdom.dev"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blastdom/router.git"
+  },
+  "scripts": {
+    "build": "nx build"
+  },
+  "dependencies": {
+    "blastdom": "^0.0.1",
+    "react-router-dom": "^6.23.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@framjet/cell": "^0.1.3",
+    "@framjet/cell-react": "^0.1.2",
+    "@framjet/types": "^0.1.0",
+    "@nx/eslint": "19.0.2",
+    "@nx/eslint-plugin": "19.0.2",
+    "@nx/rollup": "^19.0.2",
+    "@nx/web": "19.0.2",
+    "@nx/workspace": "19.0.2",
+    "@types/react": "^18.3.2",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nx": "19.0.2",
+    "prettier": "^3.2.5",
+    "react": "^18.3.1",
+    "typescript": "~5.4.5"
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "peerDependencies": {
+    "@framjet/cell": "^0.1.3",
+    "@framjet/cell-react": "^0.1.2",
+    "@framjet/types": "^0.1.0",
+    "react": "^18.3.1"
+  }
+}
